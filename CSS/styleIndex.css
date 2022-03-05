@@ -1,0 +1,74 @@
+:root {
+    --bg-body: #151515;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Cabine', sans-serif;
+    background-color: var(--bg-body);
+}
+
+.logo_nathan_carvalho {
+    width: 8em;
+    margin-left: 1.5em;
+}
+
+.navs_item {
+    margin-left: auto;
+    font-size: 1.1em;
+}
+
+.li_item {
+    margin-right: 25px;
+}
+
+.links_nav:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #0d6efd;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    padding-bottom: .25rem;
+}
+
+.photo_nathancarvalho {
+    width: 25em;
+    animation: animation_photo_nathancarvalho;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes animation_photo_nathancarvalho {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.text_nathancarvalho {
+    margin-top: 60px;
+}
+
+.cards {
+    padding: 0px;
+    width: 22rem;
+}
+
+.shadow_card{
+    box-shadow: 1px 1px 10px 1px #6c757d;
+}
+.shadow_card:hover{
+    box-shadow: 2px 2px 25px 2px #6c757d;
+    transition: all 0.5s;
+}
+
+.svg_servicos {
+    display: none;
+}
